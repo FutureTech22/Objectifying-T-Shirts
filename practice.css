@@ -1,0 +1,82 @@
+.xl {
+	border: 2px solid #5ca4d7;
+	height: 100px;
+	width: 20%;
+	display: inline-block;
+	font-size: 50px;
+	margin: 0px auto;
+	box-sizing: border-box;
+	margin-top: 200px;
+	margin-left:40%;
+}
+
+.movedrop{
+	position: relative;
+	margin-right: 100%;
+	vertical-align: top;
+}
+
+.xl div{
+	margin-left: 35%;
+	margin-top: 16px;
+}
+
+.xl:hover {
+	background-color: #5ca4d7;
+	color: white;
+}
+
+.dropcontent {
+	display: none;
+	position:absolute;
+	background-color: #lightblue;
+	min-width: 160px;
+	box-shadow: 0pc 8px 16px 0px rgba (0,0,0,0.2);
+}
+.xl:hover .dropcontent{
+	display:block;
+	position:absolute;
+	top:-300px;
+}
+
+
+.dropcontent a{
+	color:lightblue;
+	display: block;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    	}
+
+ .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
