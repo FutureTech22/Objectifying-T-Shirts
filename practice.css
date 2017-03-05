@@ -14,6 +14,7 @@
 	position: relative;
 	margin-right: 100%;
 	vertical-align: top;
+	top: -350px;
 }
 
 .xl div{
@@ -36,13 +37,14 @@
 .xl:hover .dropcontent{
 	display:block;
 	position:absolute;
-	top:-300px;
+	top:-300p
 }
 
 
 .dropcontent a{
 	color:lightblue;
 	display: block;
+	text-decoration: none;
 }
 
 
