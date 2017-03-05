@@ -1,0 +1,384 @@
+.container {
+	max-width:33%;
+	color: #5ca4d7;
+	display: inline-block;
+}
+
+* {
+	box-sizing:border-box;
+}
+
+.container,.container2,.container3 {
+    vertical-align: top;
+    width:33%;
+    padding:20px;
+}
+
+.top img {
+    max-width:100%;
+    max-height:250px;
+    margin:0px auto;
+    display:block;
+}
+
+.top {
+	border: 2px solid #5ca4d7;
+	position: relative;
+
+}
+
+.top-right  {
+	position:absolute;
+	color: #5ca4d7;
+	border: 2px solid #5ca4d7;
+	border-right:none;
+	border-top:none;
+	top: 0;
+	right:0;
+}
+
+.top-right:hover {
+	background-color: #5ca4d7;
+	color: white;
+	cursor:pointer;
+}
+
+img {
+	max-width:100%;
+	max-height: 423.02px;
+
+}
+
+.middle {
+	font-size:0px;
+}
+.refresh {
+	border: 2px solid #5ca4d7;
+	color: #5ca4d7;
+	border-top: none;
+	border-right: none;
+	height: 100px;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 50px;
+	margin: 0px auto;
+	box-sizing: border-box;
+}
+.refresh div{
+	margin-left:25%;
+	margin-top: 18px;
+}
+
+.refresh:hover {
+	background-color: #5ca4d7;
+	color: white;
+	cursor:pointer;
+}
+
+.heart {
+	border: 2px solid #5ca4d7;
+	color: #5ca4d7;
+	border-top: none;
+	border-right: none;
+	height: 100px;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 50px;
+	margin: 0px auto;
+	box-sizing: border-box; 
+}
+
+.heart div {
+	margin-left:22%;
+	margin-top: 18px;
+}
+
+.heart:hover {
+	background-color: #5ca4d7;
+	color: white;
+	cursor:pointer;
+}
+
+.xl {
+	border: 2px solid #5ca4d7;
+	color: #5ca4d7;
+	border-top: none;
+	border-right:none;
+	height: 100px;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 50px;
+	margin: 0px auto;
+	box-sizing: border-box;
+	position:relative;
+}
+
+.xl div{
+	margin-left: 13%;
+	margin-top: 16px;
+}
+
+.xl:hover {
+	background-color: #5ca4d7;
+	color: white;
+	cursor:pointer;
+}
+
+
+.xldropdown {
+	position:absolute;
+	border: 2px solid #5ca4d7;
+	top:-270px;
+	left: -40%;
+	font-size: 12px;
+	background: white;
+	display:none;
+	width: 149%;
+	height: 250px;
+}
+.xldropdown a {
+	text-decoration: none;
+	color: #5ca4d7;
+	display:block;
+	font-size:24px;
+	margin: 0 auto;
+	text-align:center;
+	margin-top: 28px;
+}
+
+.bluediamond{
+	background-color: white;
+	display: none;
+	width: 37.5%;
+	height: 32px;
+	border: 2px solid #5ca4d7;
+	transform: rotate(45deg);
+	position:absolute;
+	top: -34px;
+	left: 17%;
+	border-top:none;
+	border-left:none;
+	z-index: 3;
+}
+
+.xl:hover .bluediamond {
+	display:block;
+	animation: dropanimation .5s;
+	cursor: pointer;
+}
+
+.xl:hover .xldropdown{
+	display:block;
+	z-index: 2;
+	animation: dropanimation .5s;
+	cursor:pointer;
+}
+
+@keyframes dropanimation { 
+  0% {
+    margin-top: -40px;
+    opacity: 0; }
+  30% {
+    opacity: .6; }
+  100% {
+    margin-top: 0;
+    opacity: 1; 
+  } 
+}
+
+
+.float {
+	border: 2px solid #5ca4d7;
+	border-top: none;
+	height: 100px;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+.innerfloat {
+	position:relative;
+	background: #5ca4d7;
+	height: 45px;
+	width:  45px;
+	margin-top: 24px;
+	margin-left: 25%;
+	box-sizing: border-box;
+	border: solid white;
+}
+
+.float:hover .innerfloatdropdown{
+	display:block;
+	animation: dropanimation .5s;
+	cursor:pointer;
+}
+
+
+.innerfloatdropdown {
+	position:absolute;
+	border: 2px solid #5ca4d7;
+	top:-151px;
+	left: -119%;
+	font-size: 12px;
+	background: white;
+	display:none;
+	width: 319%;
+	height: 120px;
+
+}
+
+#square1{
+	background: #5ca4d7;
+	position: absolute;
+	height: 20px;
+	width:20%;
+	top: 30px;
+	left: 30px;
+}
+
+#square2{
+	background: lightgreen;
+	position:absolute;
+	height: 20px;
+	width:20%;
+	top: 30px;
+	left: 70px;
+}
+
+#square3{
+	background: pink;
+	position: absolute;
+	height: 20px;
+	width: 20%;
+	top: 65px;
+	left: 30px;
+}
+
+#square4{
+	background: orange;
+	position: absolute;
+	height: 20px;
+	width: 20%;
+	top: 65px;
+	left: 70px;
+}
+
+.bluediamondphillips{
+	background-color: white;
+	display: none;
+	width: 64%;
+	height: 25px;
+	border: 2px solid #5ca4d7;
+	transform: rotate(45deg);
+	position:absolute;
+	top: -41px;
+	right: 17%;
+	border-top:none;
+	border-left:none;
+	z-index: 3;
+}
+
+.float:hover .bluediamondphillips {
+	display:block;
+	animation: dropanimation .5s;
+	cursor:pointer;
+}
+
+.float:hover {
+	background-color: #5ca4d7;
+	cursor: pointer;
+}
+
+.cart {
+	border: 2px solid #5ca4d7;
+	color: #5ca4d7;
+	border-top: none;
+	border-left: none;
+	height: 100px;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 50px;
+	margin: 0px auto;
+	box-sizing: border-box;
+}
+
+.cart div{
+	margin-left: 20%;
+	margin-top: 14px;
+}
+
+.cart:hover {
+	background-color: #5ca4d7;
+	color: white;
+	cursor: pointer;
+}
+
+.container .bottom h1 {
+	display:inline-block;
+	vertical-align: top;
+	font-size: 25px;
+}
+
+.container .bottom h2 {
+	display:inline-block;
+	vertical-align: top;
+	font-size: 25px;
+	margin-left: 90%;
+	margin-top: -44px;
+}
+
+.container2 .bottom h1 {
+	display:inline-block;
+	color: #5ca4d7;
+	vertical-align: top;
+	font-size: 25px;
+}
+
+.container2 .bottom h2 {
+	display:inline-block;
+	color: #5ca4d7;
+	vertical-align: top;
+	font-size: 25px;
+	margin-left: 90%;
+	margin-top: -44px;
+}
+
+.container2 {
+	display:inline-block;
+	left:33%;
+	top: 8px;
+}
+.container3 .bottom h1 {
+	display:inline-block;
+	color: #5ca4d7;
+	vertical-align: top;
+	font-size: 25px;
+}
+
+.container3 .bottom h2 {
+	display:inline-block;
+	color: #5ca4d7;
+	vertical-align: top;
+	font-size: 25px;
+	margin-left: 90%;
+	margin-top: -44px;
+}
+
+.container3 {
+	display:inline-block;
+	left:66%;
+	top:8px;
+
+}
+
+@media only screen and (max-device-width:990px) {
+	.container, .container2, .container3 {
+		max-width:100%;
+		display:block;
+
+	}
+}
