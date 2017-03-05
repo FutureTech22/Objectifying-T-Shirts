@@ -1,7 +1,18 @@
 .container {
-	max-width:33%;
+	width:33%;
 	color: #5ca4d7;
 	display: inline-block;
+}
+
+.container, .container2, .container3 {
+	width: 33%;
+}
+
+.top img {
+    max-width:100%;
+    max-height:412px;
+    margin:0px auto;
+    display:block;
 }
 
 .top {
@@ -12,6 +23,7 @@
 
 .top-right  {
 	position:absolute;
+	color: #5ca4d7;
 	border: 2px solid #5ca4d7;
 	border-right:none;
 	border-top:none;
@@ -36,6 +48,7 @@ img {
 }
 .refresh {
 	border: 2px solid #5ca4d7;
+	color: #5ca4d7;
 	border-top: none;
 	border-right: none;
 	height: 100px;
@@ -59,6 +72,7 @@ img {
 
 .heart {
 	border: 2px solid #5ca4d7;
+	color: #5ca4d7;
 	border-top: none;
 	border-right: none;
 	height: 100px;
@@ -83,6 +97,7 @@ img {
 
 .xl {
 	border: 2px solid #5ca4d7;
+	color: #5ca4d7;
 	border-top: none;
 	border-right:none;
 	height: 100px;
@@ -273,6 +288,7 @@ img {
 
 .cart {
 	border: 2px solid #5ca4d7;
+	color: #5ca4d7;
 	border-top: none;
 	border-left: none;
 	height: 100px;
@@ -310,12 +326,14 @@ img {
 }
 
 .container2 .bottom h1 {
+	color: #5ca4d7;
 	display:inline-block;
 	vertical-align: top;
 	font-size: 25px;
 }
 
 .container2 .bottom h2 {
+	color: #5ca4d7;
 	display:inline-block;
 	vertical-align: top;
 	font-size: 25px;
@@ -325,11 +343,11 @@ img {
 
 .container2 {
 	display:inline-block;
-	position: absolute;
 	left:33%;
 	top: 8px;
 }
 .container3 .bottom h1 {
+	color: #5ca4d7;
 	display:inline-block;
 	vertical-align: top;
 	font-size: 25px;
@@ -338,6 +356,7 @@ img {
 .container3 .bottom h2 {
 	display:inline-block;
 	vertical-align: top;
+	color: #5ca4d7;
 	font-size: 25px;
 	margin-left: 90%;
 	margin-top: -44px;
@@ -345,7 +364,6 @@ img {
 
 .container3 {
 	display:inline-block;
-	position:absolute;
 	left:66%;
 	top:8px;
 
