@@ -119,7 +119,7 @@ img {
 
 .xl div{
 	margin-left: 13%;
-	margin-top: 16px;
+	margin-top: 20px;
 }
 
 .xl:hover {
@@ -153,12 +153,12 @@ img {
 .bluediamond{
 	background-color: white;
 	display: none;
-	width: 36.5%;
+	width: 40.5%;
 	height: 33px;
 	border: 2px solid #5ca4d7;
 	transform: rotate(45deg);
 	position:absolute;
-	top: -34px;
+	top: -37px;
 	left: 17%;
 	border-top:none;
 	border-left:none;
@@ -240,7 +240,7 @@ img {
 .innerfloatdropdown {
 	position:absolute;
 	border: 2px solid #5ca4d7;
-	top:-151px;
+	top:-147px;
 	left: -119%;
 	font-size: 12px;
 	background: white;
@@ -289,8 +289,8 @@ img {
 .bluediamondphillips{
 	background-color: white;
 	display: none;
-	width: 64%;
-	height: 25px;
+	width: 70%;
+	height: 27px;
 	border: 2px solid #5ca4d7;
 	transform: rotate(45deg);
 	position:absolute;
@@ -397,7 +397,7 @@ img {
 
 @media only screen and (max-device-width:990px) {
 	.container, .container2, .container3 {
-		max-width:100%;
+		width:100%;
 		display:block;
 
 	}
