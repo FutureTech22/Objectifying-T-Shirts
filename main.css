@@ -4,8 +4,15 @@
 	display: inline-block;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 .container, .container2, .container3 {
 	width: 33%;
+	padding: 20px;
+	vertical-align:top;
+	
 }
 
 .top img {
@@ -167,7 +174,7 @@ img {
 .xl:hover .xldropdown{
 	display:block;
 	z-index: 2;
-	animation: dropanimation .5s;
+	animation: dropanimation .6s;
 	cursor:pointer;
 }
 
@@ -200,7 +207,26 @@ img {
 	width:  45px;
 	margin-top: 24px;
 	margin-left: 25%;
-	box-sizing: border-box;
+	border: solid white;
+}
+
+.innerfloat2 {
+	position:relative;
+	background: orange;
+	height: 45px;
+	width:  45px;
+	margin-top: 24px;
+	margin-left: 25%;
+	border: solid white;
+}
+
+.innerfloat3 {
+	position:relative;
+	background: pink;
+	height: 45px;
+	width:  45px;
+	margin-top: 24px;
+	margin-left: 25%;
 	border: solid white;
 }
 
@@ -371,7 +397,7 @@ img {
 
 @media only screen and (max-device-width:990px) {
 	.container, .container2, .container3 {
-		width:100%;
+		max-width:100%;
 		display:block;
 
 	}
