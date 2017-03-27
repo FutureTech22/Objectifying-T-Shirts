@@ -167,14 +167,14 @@ img {
 
 .xl:hover .bluediamond {
 	display:block;
-	animation: dropanimation .5s;
+	animation: dropanimationB .5s;
 	cursor: pointer;
 }
 
 .xl:hover .xldropdown{
 	display:block;
 	z-index: 2;
-	animation: dropanimation .6s;
+	animation: dropanimationB .6s;
 	cursor:pointer;
 }
 
@@ -187,6 +187,19 @@ img {
   100% {
     margin-top: 0;
     opacity: 1; 
+  } 
+}
+
+@keyframes dropanimationB { 
+  0% {
+    margin-top: -40px;
+    opacity: 0; }
+  30% {
+    opacity: .6; }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+
   } 
 }
 
@@ -395,7 +408,7 @@ img {
 
 }
 
-@media only screen and (max-device-width:990px) {
+@media (max-device-width:990px) {
 	.container, .container2, .container3 {
 		width:100%;
 		display:block;
